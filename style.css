@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    /* border: 1px solid orange; */
+}
+
+.header {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* .languages ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 21px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+.selected {
+    font-weight: 600;
+}
+
+.title {
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.title span {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+    /* letter-spacing: 1.05px; */
+}
+
+.multiples {
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    /* border: 1px solid orange; */
+    height: 100vh;
+    width: 30vw;
+}
+
+.charts {
+    /* border: 1px solid green; */
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charts svg {
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    top: 0;
+    /* background-color: rgba(224, 224, 224, 0.5); */
+    background-color: 'none';
+    color: #434343;
+    visibility: hidden; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    padding-left: 3%;
+}
+
+input {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+
+.content div {
+    margin-top: 20px ;
+    font-size: 14px;
+    color: red;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.none {
+    display: none;
+}
+
+
+.article {
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+.paragraph {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.paragraph p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin: 0 5vw 0 5vw;
+    height: 60vh;
+    width: 40vw;
+
+}
+
+
+#paragraph {
+    /* border: 1px solid red; */
+    margin: 0 5vw 0 5vw;
+    width: 40vw;
+    max-height: 80vh;
+    text-align: left;
+    line-height: 24px;
+    overflow-y: scroll;
+
+}
+
+.close {
+    position: absolute;
+    left: 5vw;
+    top: 50px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.graph {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .graph svg {
+
+} */
+

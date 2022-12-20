@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./library/rita-full.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="main">
+        <div class="header">
+            <!-- <div class="languages">
+                <ul>
+                    <li class="selected">English</li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                    <li>Arabic</li>
+                    <li>Russia</li>
+                </ul>
+            </div> -->
+            <div class="title">
+                <span class="term">Gender Term: Language Placing Gender Equality</span><br>UN Women online lexicon on the use of gender-inclusive
+                language
+            </div>
+
+        </div>
+    </section>
+    <section class="multiples">
+        <div class="content">
+            <p>Type words to find out if they are in the gender temrs</p>
+            <input type="text" class="term-search">
+            <div class="none" id="alert">There is no term including the word(s)</div>
+        </div>
+        <div class="charts">
+
+        </div>
+    </section>
+    <section class="article">
+        <div class="paragraph">
+            <p>Paste paragraph to create the chart</p>
+            <textarea name="paragraph_text">
+            </textarea>
+            <img src="./images/icon-close.svg" alt="" class="close none">
+            <div class="none" id="paragraph"></div>
+        </div>
+        <div class="graph"></div>
+    </section>
+    <script src="./network.js"></script>
+    <script src="./multiples.js"></script>
+    <script src="./paragraph.js"></script>
+    <script src="./rita.js"></script>
+</body>
+
+</html>
